@@ -35,8 +35,8 @@ function App() {
       {user ? (
         <div>
           <button className='sign-out-btn' onClick={handleSignOut}>Sign Out</button>
-          <h1>{user.displayName}</h1>
-          <h3>{user.email}</h3>
+          <h1 className='lol'>{user.displayName}</h1>
+          <h3 className='lol'>{user.email}</h3><br/>
           <img className='image' src={user.photoURL} alt="" width={180} height={180} />
         </div>
       ) : (
